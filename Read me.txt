@@ -1,0 +1,22 @@
+Regarding the assignment requirements:
+- Everything is working as stated in the assignment handout except for the zoom in and out part which was
+discussed with the professor and chose to leave it not fixed.
+- Buttons are as descriped in the handout and are working perfectly.
+
+Notes: 
+- One Left click makes the model go white. If clicked again, the model would take the color it already had 
+before the first left click. Example: if the model was Red, then I clicked on left click and made it white
+and clicked on left click again, it would return back to Red.
+
+- The Clear button "C" clears everything on the screen including the model (which you haave to redisplay using "M")
+, the axis (which you have to redisplay usingthe button "A") 
+and the extra-credit heart which can be displayed with the button "H".
+
+- Extra credit was implemented to be a heart (with the name "Nouran" in it) which can be displayed using the "H" button. 
+By pressing the "H" button, you automaticly remove the main model and the axis from the view. 
+By pressing the "M" button, you also remove the heart to view the main robot model again.
+The "C" button also clears the heart from the screen. 
+A viewtext function was used to be able to view the word "Nouran" on the screen.
+
+One last note: everything is working as expected -except the zooming- and should also have the logic correctly.
+(example for the correct logic: if you clear display the model, the heart would disappear and viceversa).
